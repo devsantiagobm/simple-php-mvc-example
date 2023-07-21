@@ -34,6 +34,6 @@ class Table {
 }
 
 Table::$database = Database::connect();
-Table::find("SELECT * FROM notas"); 
+
 //PHP no permite tener propiedades estáticas inicializadas al momento de la creación de la clase, por esa razón, después de creada la clase,
 // esta propiedad debe cambiar su valor
